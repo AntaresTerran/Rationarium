@@ -1,0 +1,694 @@
+{
+  "1001": {
+    "name": "Grain",
+    "category": "food",
+    "essential": true
+  },
+  "1002": {
+    "name": "Bread",
+    "category": "food",
+    "essential": true
+  },
+  "1003": {
+    "name": "Fish",
+    "category": "food",
+    "essential": true
+  },
+  "1004": {
+    "name": "Olive oil",
+    "category": "food"
+  },
+  "1005": {
+    "name": "Wine",
+    "category": "drink"
+  },
+  "1006": {
+    "name": "Beer",
+    "category": "drink"
+  },
+  "1007": {
+    "name": "Timber",
+    "category": "materials"
+  },
+  "1008": {
+    "name": "Stone",
+    "category": "materials"
+  },
+  "1009": {
+    "name": "Tools",
+    "category": "materials"
+  },
+  "1010": {
+    "name": "Weapons",
+    "category": "military"
+  },
+  "1011": {
+    "name": "Garments",
+    "category": "luxury"
+  },
+  "1012": {
+    "name": "Jewelry",
+    "category": "luxury"
+  },
+  "2001": {
+    "name": "Plebeians",
+    "category": "other"
+  },
+  "2002": {
+    "name": "Patricians",
+    "category": "other"
+  },
+  "2063": {
+    "name": "Flax",
+    "category": "other"
+  },
+  "2068": {
+    "name": "Oats",
+    "category": "food"
+  },
+  "2069": {
+    "name": "Wheat",
+    "category": "food"
+  },
+  "2070": {
+    "name": "Grapes",
+    "category": "drink"
+  },
+  "2071": {
+    "name": "Lavender",
+    "category": "other"
+  },
+  "2072": {
+    "name": "Olives",
+    "category": "food"
+  },
+  "2073": {
+    "name": "Sheep",
+    "category": "food"
+  },
+  "2074": {
+    "name": "Pigs",
+    "category": "food"
+  },
+  "2075": {
+    "name": "Horses",
+    "category": "luxury"
+  },
+  "2076": {
+    "name": "Honeycombs",
+    "category": "food"
+  },
+  "2077": {
+    "name": "Wood",
+    "category": "materials"
+  },
+  "2078": {
+    "name": "Limestone",
+    "category": "materials"
+  },
+  "2079": {
+    "name": "Silver Ore",
+    "category": "materials"
+  },
+  "2080": {
+    "name": "Iron Ore",
+    "category": "materials"
+  },
+  "2084": {
+    "name": "Uncut Marble",
+    "category": "materials"
+  },
+  "2085": {
+    "name": "Coal",
+    "category": "materials"
+  },
+  "2086": {
+    "name": "Clay",
+    "category": "materials"
+  },
+  "2087": {
+    "name": "Sturgeon",
+    "category": "food"
+  },
+  "2088": {
+    "name": "Sardines",
+    "category": "food",
+    "essential": true
+  },
+  "2089": {
+    "name": "Mackerel",
+    "category": "food"
+  },
+  "2090": {
+    "name": "Salt",
+    "category": "other"
+  },
+  "2091": {
+    "name": "Silica",
+    "category": "materials"
+  },
+  "2093": {
+    "name": "Barley",
+    "category": "food"
+  },
+  "2094": {
+    "name": "Dye Plants",
+    "category": "luxury"
+  },
+  "2097": {
+    "name": "Cockles",
+    "category": "food",
+    "essential": true
+  },
+  "2099": {
+    "name": "Copper Ore",
+    "category": "materials"
+  },
+  "2100": {
+    "name": "Tin Ore",
+    "category": "materials"
+  },
+  "2101": {
+    "name": "Granite Block",
+    "category": "materials"
+  },
+  "2102": {
+    "name": "Mud",
+    "category": "materials"
+  },
+  "2103": {
+    "name": "Reeds",
+    "category": "materials"
+  },
+  "2105": {
+    "name": "Aurochs",
+    "category": "food"
+  },
+  "2106": {
+    "name": "Small Birds",
+    "category": "food"
+  },
+  "2108": {
+    "name": "Eels",
+    "category": "food",
+    "essential": true
+  },
+  "2110": {
+    "name": "Leather",
+    "category": "materials"
+  },
+  "2112": {
+    "name": "Oysters",
+    "category": "food"
+  },
+  "2115": {
+    "name": "Iron",
+    "category": "materials"
+  },
+  "2117": {
+    "name": "Glass",
+    "category": "materials"
+  },
+  "2119": {
+    "name": "Flour",
+    "category": "food"
+  },
+  "2121": {
+    "name": "Cloth",
+    "category": "luxury"
+  },
+  "2123": {
+    "name": "Ornate Wood",
+    "category": "materials"
+  },
+  "2124": {
+    "name": "Pigments",
+    "category": "luxury"
+  },
+  "2126": {
+    "name": "Celtic Green",
+    "category": "luxury"
+  },
+  "2127": {
+    "name": "Bronze",
+    "category": "materials"
+  },
+  "2128": {
+    "name": "Chassis",
+    "category": "materials"
+  },
+  "2129": {
+    "name": "Silver",
+    "category": "materials"
+  },
+  "2131": {
+    "name": "Malt",
+    "category": "drink"
+  },
+  "2132": {
+    "name": "Lard",
+    "category": "food"
+  },
+  "2133": {
+    "name": "Bird Tongues",
+    "category": "food"
+  },
+  "2135": {
+    "name": "String",
+    "category": "other"
+  },
+  "2136": {
+    "name": "Porridge",
+    "category": "food",
+    "essential": true
+  },
+  "2137": {
+    "name": "Bread",
+    "category": "food",
+    "essential": true
+  },
+  "2138": {
+    "name": "Wine",
+    "category": "drink",
+    "essential": true
+  },
+  "2139": {
+    "name": "Garum",
+    "category": "food",
+    "essential": true
+  },
+  "2140": {
+    "name": "Oysters with Caviar",
+    "category": "food",
+    "essential": true
+  },
+  "2141": {
+    "name": "Tunics",
+    "category": "luxury"
+  },
+  "2142": {
+    "name": "Pileus",
+    "category": "luxury"
+  },
+  "2143": {
+    "name": "Soap",
+    "category": "luxury"
+  },
+  "2144": {
+    "name": "Sandals",
+    "category": "luxury"
+  },
+  "2145": {
+    "name": "Togas",
+    "category": "luxury"
+  },
+  "2146": {
+    "name": "Necklaces",
+    "category": "luxury"
+  },
+  "2147": {
+    "name": "Loungers",
+    "category": "luxury"
+  },
+  "2149": {
+    "name": "Olive Oil",
+    "category": "food"
+  },
+  "2150": {
+    "name": "Writing Tablets",
+    "category": "luxury"
+  },
+  "2151": {
+    "name": "Fine Glass",
+    "category": "luxury"
+  },
+  "2152": {
+    "name": "Mosaics",
+    "category": "materials"
+  },
+  "2153": {
+    "name": "Cheese",
+    "category": "food",
+    "essential": true
+  },
+  "2154": {
+    "name": "Beer",
+    "category": "drink",
+    "essential": true
+  },
+  "2155": {
+    "name": "Bird Tongues in Aspic",
+    "category": "food",
+    "essential": true
+  },
+  "2156": {
+    "name": "Brooches",
+    "category": "luxury"
+  },
+  "2157": {
+    "name": "Torcs",
+    "category": "luxury"
+  },
+  "2158": {
+    "name": "Trousers",
+    "category": "luxury"
+  },
+  "2159": {
+    "name": "Reed Shoes",
+    "category": "luxury"
+  },
+  "2161": {
+    "name": "Cloaks",
+    "category": "luxury"
+  },
+  "2162": {
+    "name": "Handmirrors",
+    "category": "luxury"
+  },
+  "2163": {
+    "name": "Chariots",
+    "category": "luxury"
+  },
+  "2166": {
+    "name": "Standing Lyres",
+    "category": "luxury"
+  },
+  "2169": {
+    "name": "Wattle & Daub",
+    "category": "materials"
+  },
+  "2171": {
+    "name": "Rope",
+    "category": "materials"
+  },
+  "2172": {
+    "name": "Sails",
+    "category": "materials"
+  },
+  "2173": {
+    "name": "Weapons",
+    "category": "materials"
+  },
+  "2174": {
+    "name": "Timber",
+    "category": "materials"
+  },
+  "2176": {
+    "name": "Tiles",
+    "category": "materials"
+  },
+  "2178": {
+    "name": "Concrete",
+    "category": "materials"
+  },
+  "2179": {
+    "name": "Marble",
+    "category": "materials"
+  },
+  "2180": {
+    "name": "Tyrian Purple",
+    "category": "luxury"
+  },
+  "2181": {
+    "name": "Libertus Workforce",
+    "category": "other"
+  },
+  "2184": {
+    "name": "Plebeian Workforce",
+    "category": "other"
+  },
+  "2185": {
+    "name": "Equites Workforce",
+    "category": "other"
+  },
+  "2186": {
+    "name": "Patrician Workforce",
+    "category": "other"
+  },
+  "2192": {
+    "name": "Wader Workforce",
+    "category": "other"
+  },
+  "2196": {
+    "name": "Smith Workforce",
+    "category": "other"
+  },
+  "2197": {
+    "name": "Alderman Workforce",
+    "category": "other"
+  },
+  "2198": {
+    "name": "Mercators Workforce",
+    "category": "other"
+  },
+  "2199": {
+    "name": "Nobles Workforce",
+    "category": "other"
+  },
+  "2671": {
+    "name": "Market",
+    "category": "other"
+  },
+  "2677": {
+    "name": "Tavern",
+    "category": "other"
+  },
+  "2678": {
+    "name": "Library",
+    "category": "other"
+  },
+  "2679": {
+    "name": "Sanctuary",
+    "category": "other"
+  },
+  "2680": {
+    "name": "Grammaticus",
+    "category": "other"
+  },
+  "2681": {
+    "name": "Forum",
+    "category": "luxury"
+  },
+  "2683": {
+    "name": "Theatre",
+    "category": "other"
+  },
+  "2684": {
+    "name": "Temple",
+    "category": "luxury"
+  },
+  "2685": {
+    "name": "Baths",
+    "category": "luxury"
+  },
+  "2686": {
+    "name": "Amphitheatre",
+    "category": "luxury"
+  },
+  "3158": {
+    "name": "Murex Snails",
+    "category": "luxury"
+  },
+  "6706": {
+    "name": "Market",
+    "category": "other"
+  },
+  "6707": {
+    "name": "Recreation Ground",
+    "category": "other"
+  },
+  "6708": {
+    "name": "Alder Council",
+    "category": "other"
+  },
+  "6709": {
+    "name": "Bardic Hearth",
+    "category": "other"
+  },
+  "6710": {
+    "name": "Fanum",
+    "category": "other"
+  },
+  "7985": {
+    "name": "Saltwort",
+    "category": "other"
+  },
+  "8404": {
+    "name": "Ponies",
+    "category": "other"
+  },
+  "8405": {
+    "name": "Sausages",
+    "category": "food",
+    "essential": true
+  },
+  "8420": {
+    "name": "Seashells",
+    "category": "luxury"
+  },
+  "8558": {
+    "name": "Caviar",
+    "category": "food"
+  },
+  "8561": {
+    "name": "Sandarac Wood",
+    "category": "materials"
+  },
+  "8562": {
+    "name": "Cushions",
+    "category": "luxury"
+  },
+  "8563": {
+    "name": "Minerals",
+    "category": "materials"
+  },
+  "13810": {
+    "name": "Armour",
+    "category": "materials"
+  },
+  "16200": {
+    "name": "Temple",
+    "category": "other"
+  },
+  "16201": {
+    "name": "Grammaticus",
+    "category": "other"
+  },
+  "16202": {
+    "name": "Baths",
+    "category": "other"
+  },
+  "30724": {
+    "name": "Aqueduct Cistern",
+    "category": "other"
+  },
+  "30733": {
+    "name": "Aqueduct Cistern",
+    "category": "other"
+  },
+  "31694": {
+    "name": "Hemp",
+    "category": "other"
+  },
+  "31695": {
+    "name": "Resin",
+    "category": "materials"
+  },
+  "31697": {
+    "name": "Gold Ore",
+    "category": "materials"
+  },
+  "31698": {
+    "name": "Gold",
+    "category": "materials"
+  },
+  "31700": {
+    "name": "Amphorae",
+    "category": "luxury"
+  },
+  "31701": {
+    "name": "Herbs",
+    "category": "food"
+  },
+  "31702": {
+    "name": "Beavers",
+    "category": "other"
+  },
+  "31703": {
+    "name": "Saltwash",
+    "category": "other"
+  },
+  "31704": {
+    "name": "Head Piece",
+    "category": "luxury"
+  },
+  "31706": {
+    "name": "Clan Shields",
+    "category": "military"
+  },
+  "31707": {
+    "name": "Fur Hats",
+    "category": "luxury"
+  },
+  "31708": {
+    "name": "Wigs",
+    "category": "luxury"
+  },
+  "31709": {
+    "name": "Granite",
+    "category": "materials"
+  },
+  "31757": {
+    "name": "Gambling House",
+    "category": "other"
+  },
+  "31768": {
+    "name": "Roast Beef",
+    "category": "food",
+    "essential": true
+  },
+  "37132": {
+    "name": "Theatre",
+    "category": "other"
+  },
+  "37133": {
+    "name": "Gambling House",
+    "category": "other"
+  },
+  "55954": {
+    "name": "Drinking Horns",
+    "category": "drink"
+  },
+  "55955": {
+    "name": "Barrow",
+    "category": "military"
+  },
+  "55956": {
+    "name": "Sacred Grove",
+    "category": "luxury"
+  },
+  "91372": {
+    "name": "Officium Permit",
+    "category": "other"
+  },
+  "93770": {
+    "name": "Depot Permit",
+    "category": "other"
+  },
+  "93771": {
+    "name": "Shrine Permit",
+    "category": "other"
+  },
+  "108222": {
+    "name": "Garrison Auxilia Available",
+    "category": "other"
+  },
+  "108223": {
+    "name": "Garrison Archers Available",
+    "category": "other"
+  },
+  "108224": {
+    "name": "Garrison Cavalry Available",
+    "category": "other"
+  },
+  "145102": {
+    "name": "Obsidian",
+    "category": "materials"
+  },
+  "145220": {
+    "name": "Statuettes",
+    "category": "luxury"
+  },
+  "145221": {
+    "name": "Latrunculi Sets",
+    "category": "luxury"
+  },
+  "152719": {
+    "name": "Hippodrome",
+    "category": "luxury"
+  },
+  "1010017": {
+    "name": "Denarii",
+    "category": "other"
+  }
+}

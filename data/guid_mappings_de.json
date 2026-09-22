@@ -1,0 +1,694 @@
+{
+  "1001": {
+    "name": "Getreide",
+    "category": "food",
+    "essential": true
+  },
+  "1002": {
+    "name": "Brot",
+    "category": "food",
+    "essential": true
+  },
+  "1003": {
+    "name": "Fisch",
+    "category": "food",
+    "essential": true
+  },
+  "1004": {
+    "name": "Olivenöl",
+    "category": "food"
+  },
+  "1005": {
+    "name": "Wein",
+    "category": "drink"
+  },
+  "1006": {
+    "name": "Bier",
+    "category": "drink"
+  },
+  "1007": {
+    "name": "Holz",
+    "category": "materials"
+  },
+  "1008": {
+    "name": "Stein",
+    "category": "materials"
+  },
+  "1009": {
+    "name": "Werkzeuge",
+    "category": "materials"
+  },
+  "1010": {
+    "name": "Waffen",
+    "category": "military"
+  },
+  "1011": {
+    "name": "Gewänder",
+    "category": "luxury"
+  },
+  "1012": {
+    "name": "Schmuck",
+    "category": "luxury"
+  },
+  "2001": {
+    "name": "Plebejer",
+    "category": "other"
+  },
+  "2002": {
+    "name": "Patrizier",
+    "category": "other"
+  },
+  "2063": {
+    "name": "Flachs",
+    "category": "other"
+  },
+  "2068": {
+    "name": "Hafer",
+    "category": "food"
+  },
+  "2069": {
+    "name": "Weizen",
+    "category": "food"
+  },
+  "2070": {
+    "name": "Weintrauben",
+    "category": "drink"
+  },
+  "2071": {
+    "name": "Lavandula",
+    "category": "other"
+  },
+  "2072": {
+    "name": "Oliven",
+    "category": "food"
+  },
+  "2073": {
+    "name": "Schafe",
+    "category": "food"
+  },
+  "2074": {
+    "name": "Schweine",
+    "category": "food"
+  },
+  "2075": {
+    "name": "Pferde",
+    "category": "luxury"
+  },
+  "2076": {
+    "name": "Honigwaben",
+    "category": "food"
+  },
+  "2077": {
+    "name": "Holz",
+    "category": "materials"
+  },
+  "2078": {
+    "name": "Kalkstein",
+    "category": "materials"
+  },
+  "2079": {
+    "name": "Silbererz",
+    "category": "materials"
+  },
+  "2080": {
+    "name": "Eisenerz",
+    "category": "materials"
+  },
+  "2084": {
+    "name": "Rohmarmor",
+    "category": "materials"
+  },
+  "2085": {
+    "name": "Kohle",
+    "category": "materials"
+  },
+  "2086": {
+    "name": "Lehm",
+    "category": "materials"
+  },
+  "2087": {
+    "name": "Störe",
+    "category": "food"
+  },
+  "2088": {
+    "name": "Sardinen",
+    "category": "food",
+    "essential": true
+  },
+  "2089": {
+    "name": "Makrelen",
+    "category": "food"
+  },
+  "2090": {
+    "name": "Salz",
+    "category": "other"
+  },
+  "2091": {
+    "name": "Quarzsand",
+    "category": "materials"
+  },
+  "2093": {
+    "name": "Gerste",
+    "category": "food"
+  },
+  "2094": {
+    "name": "Färberpflanzen",
+    "category": "luxury"
+  },
+  "2097": {
+    "name": "Herzmuscheln",
+    "category": "food",
+    "essential": true
+  },
+  "2099": {
+    "name": "Kupfererz",
+    "category": "materials"
+  },
+  "2100": {
+    "name": "Zinnerz",
+    "category": "materials"
+  },
+  "2101": {
+    "name": "Granitblöcke",
+    "category": "materials"
+  },
+  "2102": {
+    "name": "Schlamm",
+    "category": "materials"
+  },
+  "2103": {
+    "name": "Schilf",
+    "category": "materials"
+  },
+  "2105": {
+    "name": "Auerochsen",
+    "category": "food"
+  },
+  "2106": {
+    "name": "Kleine Vögel",
+    "category": "food"
+  },
+  "2108": {
+    "name": "Aale",
+    "category": "food",
+    "essential": true
+  },
+  "2110": {
+    "name": "Leder",
+    "category": "materials"
+  },
+  "2112": {
+    "name": "Austern",
+    "category": "food"
+  },
+  "2115": {
+    "name": "Eisen",
+    "category": "materials"
+  },
+  "2117": {
+    "name": "Glas",
+    "category": "materials"
+  },
+  "2119": {
+    "name": "Mehl",
+    "category": "food"
+  },
+  "2121": {
+    "name": "Stoffe",
+    "category": "luxury"
+  },
+  "2123": {
+    "name": "Verziertes Holz",
+    "category": "materials"
+  },
+  "2124": {
+    "name": "Farbstoffe",
+    "category": "luxury"
+  },
+  "2126": {
+    "name": "Keltischgrün",
+    "category": "luxury"
+  },
+  "2127": {
+    "name": "Bronze",
+    "category": "materials"
+  },
+  "2128": {
+    "name": "Unterbau",
+    "category": "materials"
+  },
+  "2129": {
+    "name": "Silber",
+    "category": "materials"
+  },
+  "2131": {
+    "name": "Malz",
+    "category": "drink"
+  },
+  "2132": {
+    "name": "Schmalz",
+    "category": "food"
+  },
+  "2133": {
+    "name": "Vogelzungen",
+    "category": "food"
+  },
+  "2135": {
+    "name": "Saiten",
+    "category": "other"
+  },
+  "2136": {
+    "name": "Haferbrei",
+    "category": "food",
+    "essential": true
+  },
+  "2137": {
+    "name": "Brot",
+    "category": "food",
+    "essential": true
+  },
+  "2138": {
+    "name": "Wein",
+    "category": "drink",
+    "essential": true
+  },
+  "2139": {
+    "name": "Garum",
+    "category": "food",
+    "essential": true
+  },
+  "2140": {
+    "name": "Austern mit Kaviar",
+    "category": "food",
+    "essential": true
+  },
+  "2141": {
+    "name": "Tuniken",
+    "category": "luxury"
+  },
+  "2142": {
+    "name": "Pilei",
+    "category": "luxury"
+  },
+  "2143": {
+    "name": "Seife",
+    "category": "luxury"
+  },
+  "2144": {
+    "name": "Sandalen",
+    "category": "luxury"
+  },
+  "2145": {
+    "name": "Togen",
+    "category": "luxury"
+  },
+  "2146": {
+    "name": "Halsketten",
+    "category": "luxury"
+  },
+  "2147": {
+    "name": "Liegen",
+    "category": "luxury"
+  },
+  "2149": {
+    "name": "Olivenöl",
+    "category": "food"
+  },
+  "2150": {
+    "name": "Schrifttafeln",
+    "category": "luxury"
+  },
+  "2151": {
+    "name": "Feines Glas",
+    "category": "luxury"
+  },
+  "2152": {
+    "name": "Mosaike",
+    "category": "materials"
+  },
+  "2153": {
+    "name": "Käse",
+    "category": "food",
+    "essential": true
+  },
+  "2154": {
+    "name": "Bier",
+    "category": "drink",
+    "essential": true
+  },
+  "2155": {
+    "name": "Vogelzungen in Aspik",
+    "category": "food",
+    "essential": true
+  },
+  "2156": {
+    "name": "Fibeln",
+    "category": "luxury"
+  },
+  "2157": {
+    "name": "Torques",
+    "category": "luxury"
+  },
+  "2158": {
+    "name": "Hosen",
+    "category": "luxury"
+  },
+  "2159": {
+    "name": "Schilfschuhe",
+    "category": "luxury"
+  },
+  "2161": {
+    "name": "Umhänge",
+    "category": "luxury"
+  },
+  "2162": {
+    "name": "Handspiegel",
+    "category": "luxury"
+  },
+  "2163": {
+    "name": "Streitwagen",
+    "category": "luxury"
+  },
+  "2166": {
+    "name": "Lyren",
+    "category": "luxury"
+  },
+  "2169": {
+    "name": "Flechtwerk",
+    "category": "materials"
+  },
+  "2171": {
+    "name": "Seile",
+    "category": "materials"
+  },
+  "2172": {
+    "name": "Segel",
+    "category": "materials"
+  },
+  "2173": {
+    "name": "Waffen",
+    "category": "materials"
+  },
+  "2174": {
+    "name": "Bretter",
+    "category": "materials"
+  },
+  "2176": {
+    "name": "Ziegel",
+    "category": "materials"
+  },
+  "2178": {
+    "name": "Beton",
+    "category": "materials"
+  },
+  "2179": {
+    "name": "Marmor",
+    "category": "materials"
+  },
+  "2180": {
+    "name": "Tyrischer Purpur",
+    "category": "luxury"
+  },
+  "2181": {
+    "name": "Liberti-Arbeitskraft",
+    "category": "other"
+  },
+  "2184": {
+    "name": "Plebejer-Arbeitskraft",
+    "category": "other"
+  },
+  "2185": {
+    "name": "Equites-Arbeitskraft",
+    "category": "other"
+  },
+  "2186": {
+    "name": "Patrizier-Arbeitskraft",
+    "category": "other"
+  },
+  "2192": {
+    "name": "Wanderer-Arbeitskraft",
+    "category": "other"
+  },
+  "2196": {
+    "name": "Schmied-Arbeitskraft",
+    "category": "other"
+  },
+  "2197": {
+    "name": "Ältesten-Arbeitskraft",
+    "category": "other"
+  },
+  "2198": {
+    "name": "Mercator-Arbeitskraft",
+    "category": "other"
+  },
+  "2199": {
+    "name": "Edelmänner-Arbeitskraft",
+    "category": "other"
+  },
+  "2671": {
+    "name": "Markt",
+    "category": "other"
+  },
+  "2677": {
+    "name": "Taberna",
+    "category": "other"
+  },
+  "2678": {
+    "name": "Bibliothek",
+    "category": "other"
+  },
+  "2679": {
+    "name": "Heiligtum",
+    "category": "other"
+  },
+  "2680": {
+    "name": "Grammaticus",
+    "category": "other"
+  },
+  "2681": {
+    "name": "Forum",
+    "category": "luxury"
+  },
+  "2683": {
+    "name": "Theater",
+    "category": "other"
+  },
+  "2684": {
+    "name": "Tempel",
+    "category": "luxury"
+  },
+  "2685": {
+    "name": "Bäder",
+    "category": "luxury"
+  },
+  "2686": {
+    "name": "Amphitheater",
+    "category": "luxury"
+  },
+  "3158": {
+    "name": "Purpurschnecken",
+    "category": "luxury"
+  },
+  "6706": {
+    "name": "Markt",
+    "category": "other"
+  },
+  "6707": {
+    "name": "Wettkampfwiese",
+    "category": "other"
+  },
+  "6708": {
+    "name": "Ältestenrat",
+    "category": "other"
+  },
+  "6709": {
+    "name": "Sängerstube",
+    "category": "other"
+  },
+  "6710": {
+    "name": "Fanum",
+    "category": "other"
+  },
+  "7985": {
+    "name": "Salzkraut",
+    "category": "other"
+  },
+  "8404": {
+    "name": "Ponys",
+    "category": "other"
+  },
+  "8405": {
+    "name": "Würste",
+    "category": "food",
+    "essential": true
+  },
+  "8420": {
+    "name": "Kammmuschelschalen",
+    "category": "luxury"
+  },
+  "8558": {
+    "name": "Kaviar",
+    "category": "food"
+  },
+  "8561": {
+    "name": "Sandarakholz",
+    "category": "materials"
+  },
+  "8562": {
+    "name": "Polster",
+    "category": "luxury"
+  },
+  "8563": {
+    "name": "Mineralien",
+    "category": "materials"
+  },
+  "13810": {
+    "name": "Rüstung",
+    "category": "materials"
+  },
+  "16200": {
+    "name": "Tempel",
+    "category": "other"
+  },
+  "16201": {
+    "name": "Grammaticus",
+    "category": "other"
+  },
+  "16202": {
+    "name": "Bäder",
+    "category": "other"
+  },
+  "30724": {
+    "name": "Zisterne",
+    "category": "other"
+  },
+  "30733": {
+    "name": "Zisterne",
+    "category": "other"
+  },
+  "31694": {
+    "name": "Hanf",
+    "category": "other"
+  },
+  "31695": {
+    "name": "Harz",
+    "category": "materials"
+  },
+  "31697": {
+    "name": "Golderz",
+    "category": "materials"
+  },
+  "31698": {
+    "name": "Gold",
+    "category": "materials"
+  },
+  "31700": {
+    "name": "Amphoren",
+    "category": "luxury"
+  },
+  "31701": {
+    "name": "Kräuter",
+    "category": "food"
+  },
+  "31702": {
+    "name": "Biber",
+    "category": "other"
+  },
+  "31703": {
+    "name": "Salzlake",
+    "category": "other"
+  },
+  "31704": {
+    "name": "Haarnetz",
+    "category": "luxury"
+  },
+  "31706": {
+    "name": "Clanschilde",
+    "category": "military"
+  },
+  "31707": {
+    "name": "Fellmützen",
+    "category": "luxury"
+  },
+  "31708": {
+    "name": "Perücken",
+    "category": "luxury"
+  },
+  "31709": {
+    "name": "Granit",
+    "category": "materials"
+  },
+  "31757": {
+    "name": "Aleatorium",
+    "category": "other"
+  },
+  "31768": {
+    "name": "Rinderbraten",
+    "category": "food",
+    "essential": true
+  },
+  "37132": {
+    "name": "Theater",
+    "category": "other"
+  },
+  "37133": {
+    "name": "Aleatorium",
+    "category": "other"
+  },
+  "55954": {
+    "name": "Trinkhörner",
+    "category": "drink"
+  },
+  "55955": {
+    "name": "Hügelgrab",
+    "category": "military"
+  },
+  "55956": {
+    "name": "Heiliger Hain",
+    "category": "luxury"
+  },
+  "91372": {
+    "name": "Officia-Baurecht",
+    "category": "other"
+  },
+  "93770": {
+    "name": "Depot-Baurecht",
+    "category": "other"
+  },
+  "93771": {
+    "name": "Schrein-Baurecht",
+    "category": "other"
+  },
+  "108222": {
+    "name": "Auxiliareserven",
+    "category": "other"
+  },
+  "108223": {
+    "name": "Bogenschützenreserven",
+    "category": "other"
+  },
+  "108224": {
+    "name": "Kavalleriereserven",
+    "category": "other"
+  },
+  "145102": {
+    "name": "Obsidian",
+    "category": "materials"
+  },
+  "145220": {
+    "name": "Figuren",
+    "category": "luxury"
+  },
+  "145221": {
+    "name": "Latrunculi-Sets",
+    "category": "luxury"
+  },
+  "152719": {
+    "name": "Hippodrom",
+    "category": "luxury"
+  },
+  "1010017": {
+    "name": "Denare",
+    "category": "other"
+  }
+}

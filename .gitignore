@@ -7,6 +7,9 @@ Desktop.ini
 node_modules/
 dist/
 build/
+src/server/embedded.generated.ts
+*.blob
+*.exe
 .env
 .env.local
 
