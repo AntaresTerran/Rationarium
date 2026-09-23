@@ -7,8 +7,9 @@ bereitgestellte Windows Named Pipe; Spieldateien und Texturen sind nicht enthalt
 
 ## Start für Spieler
 
-1. `Rationarium.exe` doppelklicken. Der lokale Dienst öffnet den Standardbrowser
-   unter [http://localhost:53117](http://localhost:53117).
+1. `Rationarium.exe` doppelklicken. Das Steuerfenster und der Standardbrowser
+   öffnen sich. Das Dashboard ist standardmäßig unter
+   [http://localhost:53117](http://localhost:53117) erreichbar.
 2. Für Live-Daten in Ubisoft Connect bei Anno 117 das Startargument `/pipe`
    eintragen und das Spiel starten. Die Verbindung wird automatisch erneut
    versucht, falls das Spiel noch nicht läuft.
@@ -17,15 +18,18 @@ bereitgestellte Windows Named Pipe; Spieldateien und Texturen sind nicht enthalt
    JSONL-Upload für eigene Replays.
 
 Die `.exe` benötigt auf dem Zielrechner weder Node.js noch Python noch weitere
-Build-Werkzeuge. Der Host bindet standardmäßig nur an `127.0.0.1`.
+Build-Werkzeuge. Das Windows-Steuerfenster nutzt die vorhandene PowerShell und
+zeigt Dienst- und Spielstatus, Port, Browseröffnung und Beenden. Der Host bindet
+standardmäßig nur an `127.0.0.1`.
 
 ### Tablet im lokalen Netzwerk
 
-Auf dem PC mit `Rationarium.exe --host 0.0.0.0` starten, die Windows-Firewall
-für den gewählten Port entsprechend freigeben und auf dem Tablet
-`http://<PC-IP>:53117` öffnen. Der Port kann in den Einstellungen geändert werden;
-die Änderung wird nach einem Neustart wirksam. Alternativ beim Start
-`--port <nummer>` verwenden.
+Im Steuerfenster den **Tablet- / Smartphone-Modus** aktivieren. Dort die passende
+LAN-Adresse auswählen und den QR-Code mit dem Gerät scannen. Beide Geräte müssen
+im selben Netzwerk sein; gegebenenfalls die Windows-Firewall für den gewählten
+Port freigeben. Port und Modus werden sofort umgestellt und für den nächsten Start
+gespeichert. Der QR-Code wird lokal erzeugt. Alternativ beim Start
+`--port <nummer>` oder `--host 0.0.0.0` verwenden.
 
 ### Kommandozeilenoptionen
 
@@ -37,6 +41,7 @@ die Änderung wird nach einem Neustart wirksam. Alternativ beim Start
 | `--port <nummer>` | HTTP-Port überschreiben (Standard: 53117) |
 | `--host 0.0.0.0` | Zugriff im lokalen Netz ermöglichen |
 | `--no-browser` | Browser nicht automatisch öffnen |
+| `--no-widget` | Windows-Steuerfenster nicht öffnen (für Tests/Headless-Betrieb) |
 
 ## Funktionen
 
@@ -45,11 +50,20 @@ die Änderung wird nach einem Neustart wirksam. Alternativ beim Start
 - **Produktionsmatrix:** aktuelle und mögliche Produktion und Nachfrage,
   Defizite, Betriebe, Produktivität, Suche, Kategorie- und Defizitfilter.
 - **Engpassradar:** kritische Waren, Grundversorgung und auf Wunsch ein dezentes
-  Tonsignal. Eine Lagerleerstandsprognose erscheint nur, wenn ein Replay
-  Lagerwerte enthält; die Spiel-Pipe übermittelt derzeit keinen Lagerbestand.
+  Tonsignal. Die Spiel-Pipe übermittelt derzeit keinen Lagerbestand. Im Live-Modus
+  kann der im Spiel angezeigte Bestand je Ware für die ausgewählte Insel oder das
+  ganze Reich manuell eingetragen werden. Daraus berechnet Rationarium eine
+  geschätzte Zeit bis zum Lagerleerstand (`Bestand / -Bilanz`). Manuelle Werte
+  bleiben im lokalen Browser gespeichert und gelten zehn Minuten; Handel,
+  Spielpausen und Tempoänderungen sind in der Schätzung nicht enthalten. Eine
+  Reichsprognose ist nur rechnerisch, da Bestände nicht automatisch zwischen
+  Inseln verfügbar sind. Replays
+  mit vollständigen Lagerwerten zeigen diese direkt an.
 - **Arbeitskraft:** Stufen und Betriebe unter 100 % Produktivität.
 - **Einstellungen:** Live/Simulation, Replay-Steuerung, Deutsch/Englisch,
   helles/dunkles Marmor-Theme und Port.
+- **Steuerfenster:** Status, sofortiger Tablet-Modus mit LAN-Adresse und QR-Code,
+  Portwechsel, Browser öffnen und Anwendung beenden.
 
 Die Zuordnung von GUIDs zu deutschen und englischen Namen stammt aus dem
 Community-Rechner. Unbekannte GUIDs bleiben sichtbar und können in

@@ -15,3 +15,6 @@ Die lokal eingebundenen Schriften [DM Sans](https://github.com/googlefonts/dm-fo
 und [Marcellus](https://github.com/googlefonts/marcellus) werden unter der
 SIL Open Font License ausgeliefert. Ihre Lizenztexte liegen unter
 `src/client/public/licenses/` und sind in der `.exe` abrufbar.
+
+Der QR-Code im Steuerfenster wird lokal mit
+[node-qrcode](https://github.com/soldair/node-qrcode) erzeugt (MIT-Lizenz).

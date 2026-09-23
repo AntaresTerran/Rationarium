@@ -1,10 +1,12 @@
+param([string]$ExeName = 'Rationarium.exe')
 $ErrorActionPreference = 'Stop'
 Set-Location (Resolve-Path (Join-Path $PSScriptRoot '..'))
 if ($IsWindows -eq $false -and $env:OS -ne 'Windows_NT') { throw 'Windows is required for Rationarium.exe' }
+if ([IO.Path]::GetFileName($ExeName) -ne $ExeName -or -not $ExeName.EndsWith('.exe', [StringComparison]::OrdinalIgnoreCase)) { throw 'ExeName must be an .exe file name' }
 npm run build
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 $nodeBinary = (Get-Command node).Source
-$output = Join-Path (Get-Location) 'dist\Rationarium.exe'
+$output = Join-Path (Join-Path (Get-Location) 'dist') $ExeName
 $blob = Join-Path (Get-Location) 'dist\rationarium.blob'
 $config = Join-Path (Get-Location) 'dist\sea-config.json'
 @{ main = (Join-Path (Get-Location) 'dist\server.cjs'); output = $blob; disableExperimentalSEAWarning = $true; useCodeCache = $false } | ConvertTo-Json | Set-Content -Encoding UTF8 $config

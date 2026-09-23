@@ -10,13 +10,14 @@ export function useDashboard() {
     let active = true;
     let socket: WebSocket | null = null;
     let retry: ReturnType<typeof setTimeout> | null = null;
+    let receivedSocketState = false;
     fetch('/api/mappings').then((r) => r.json()).then((value) => { if (active) setMaps(value); }).catch(() => {});
-    fetch('/api/state').then((r) => r.json()).then((value) => { if (active) setState(value); }).catch(() => {});
+    fetch('/api/state').then((r) => r.json()).then((value) => { if (active && !receivedSocketState) setState(value); }).catch(() => {});
     function connect() {
       if (!active) return;
       socket = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws`);
       socket.onopen = () => { if (active) setOnline(true); };
-      socket.onmessage = (event) => { if (active) setState(JSON.parse(event.data)); };
+      socket.onmessage = (event) => { if (active) { receivedSocketState = true; setState(JSON.parse(event.data)); } };
       socket.onclose = () => { if (active) { setOnline(false); retry = setTimeout(connect, 2000); } };
       socket.onerror = () => socket?.close();
     }

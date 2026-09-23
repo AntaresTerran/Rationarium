@@ -44,6 +44,7 @@ export interface DashboardState {
   mode: Mode;
   connection: ConnectionStatus;
   sessionName: string | null;
+  sessionInstance: string | null;
   protocolVersion: number | null;
   error: string | null;
   islands: Island[];

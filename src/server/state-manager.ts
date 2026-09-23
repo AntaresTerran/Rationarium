@@ -1,11 +1,12 @@
 import { EventEmitter } from 'node:events';
+import { randomUUID } from 'node:crypto';
 import type { AreaStatistics, ConnectionStatus, DashboardState, Island, Mode, TrendPoint } from '../shared/types';
 
 export class StateManager extends EventEmitter {
   private islands = new Map<string, Island>();
   private trends = new Map<string, TrendPoint[]>();
   private state: Omit<DashboardState, 'islands' | 'trends'> = {
-    mode: 'live', connection: 'disconnected', sessionName: null, protocolVersion: null,
+    mode: 'live', connection: 'disconnected', sessionName: null, sessionInstance: null, protocolVersion: null,
     error: null, replay: { name: 'Integrierte Demonstration', length: 0, index: 0, playing: false, intervalMs: 1800 },
   };
 
@@ -35,16 +36,19 @@ export class StateManager extends EventEmitter {
   }
 
   setVersion(version: number): void { this.state.protocolVersion = version; this.publish(); }
-  setSession(name: string): void { this.clear(); this.state.sessionName = name; this.publish(); }
+  setSession(name: string): void { this.clear(); this.state.sessionName = name; this.state.sessionInstance = randomUUID(); this.publish(); }
   endSession(): void { this.clear(); this.publish(); }
 
   clear(): void {
     this.islands.clear();
     this.trends.clear();
     this.state.sessionName = null;
+    this.state.sessionInstance = null;
   }
 
   putArea(area: AreaStatistics): void {
+    // On reconnect the game may resume area updates without another SessionStart.
+    if (!this.state.sessionInstance) this.state.sessionInstance = randomUUID();
     const key = `${area.sessionGuid}_${area.islandId}`;
     const updatedAt = Date.now();
     this.islands.set(key, { ...area, key, updatedAt });

@@ -20,5 +20,6 @@ const de = JSON.parse(readFileSync(join(root, 'data', 'guid_mappings_de.json'), 
 const en = JSON.parse(readFileSync(join(root, 'data', 'guid_mappings_en.json'), 'utf8'));
 const sample = readFileSync(join(root, 'data', 'samples', 'replay_sample.jsonl'), 'utf8');
 const real = readFileSync(join(root, 'data', 'samples', 'replay_real.jsonl'), 'utf8');
-const output = `import type { GuidMap } from '../shared/types';\nexport const EMBEDDED_FILES: Record<string, {type: string; base64: string}> = ${JSON.stringify(files)};\nexport const GUID_MAP_DE: GuidMap = ${JSON.stringify(de)};\nexport const GUID_MAP_EN: GuidMap = ${JSON.stringify(en)};\nexport const SAMPLE_REPLAY = ${JSON.stringify(sample)};\nexport const REAL_REPLAY = ${JSON.stringify(real)};\n`;
+const widget = readFileSync(join(root, 'src', 'server', 'widget.ps1'), 'utf8');
+const output = `import type { GuidMap } from '../shared/types';\nexport const EMBEDDED_FILES: Record<string, {type: string; base64: string}> = ${JSON.stringify(files)};\nexport const GUID_MAP_DE: GuidMap = ${JSON.stringify(de)};\nexport const GUID_MAP_EN: GuidMap = ${JSON.stringify(en)};\nexport const SAMPLE_REPLAY = ${JSON.stringify(sample)};\nexport const REAL_REPLAY = ${JSON.stringify(real)};\nexport const WIDGET_SCRIPT = ${JSON.stringify(widget)};\n`;
 writeFileSync(join(root, 'src', 'server', 'embedded.generated.ts'), output);

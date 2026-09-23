@@ -62,6 +62,29 @@ test('state keys remain unique across game regions', () => {
   assert.deepEqual(state.snapshot().islands.map((island) => island.key).sort(), ['3245_1', '9876_1']);
   state.endSession();
   assert.equal(state.snapshot().islands.length, 0);
+  assert.equal(state.snapshot().sessionInstance, null);
+});
+
+test('manual stock session identity changes when a game session starts', () => {
+  const state = new StateManager();
+  state.setSession('Roma');
+  const first = state.snapshot().sessionInstance;
+  assert.ok(first);
+  state.setSession('Roma');
+  assert.notEqual(state.snapshot().sessionInstance, first);
+  state.endSession();
+  assert.equal(state.snapshot().sessionInstance, null);
+});
+
+test('area updates identify a session even when reconnect has no session start', () => {
+  const state = new StateManager();
+  const area = parseMessage(areaBody(3245, 1));
+  if (area.type !== MessageType.AreaProductionStatistics) throw new Error('wrong fixture');
+  state.putArea(area.area);
+  const first = state.snapshot().sessionInstance;
+  assert.ok(first);
+  state.putArea(area.area);
+  assert.equal(state.snapshot().sessionInstance, first);
 });
 
 test('community replay schema imports building and workforce data', () => {
